@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1182px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Comfortaa', serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.header {
+  background-color: #fff8f3;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4px;
+}
+
+.menu-list {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-link {
+  text-transform: uppercase;
+}
+
+.phone {
+  position: relative;
+  text-transform: uppercase;
+}
+
+.phone::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -23px;
+  top: -3px;
+  background-image: url('../images/icon-phone.svg');
+}
