@@ -96,3 +96,43 @@ body {
   display: flex;
   gap: 15px;
 }
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer-inner {
+    flex-wrap: wrap;
+  }
+
+  .footer-contacts {
+    width: 100%;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .footer-social-list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+
+  .container {
+    max-width: 640px;
+  }
+
+  .phone::before {
+    width: 14px;
+    height: 14px;
+    left: -16px;
+    top: -2px;
+    background-size: cover;
+  }
+}
