@@ -44,6 +44,25 @@ body {
   padding-top: 4px;
 }
 
+.menu-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.menu-btn span {
+  width: 100%;
+  height: 1px;
+  background-color: #7b6152;
+}
+
 .menu-list {
   display: flex;
   gap: 20px;
@@ -134,5 +153,42 @@ body {
     left: -16px;
     top: -2px;
     background-size: cover;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .menu-btn {
+    display: flex;
+  }
+
+  .header-menu-list {
+    display: none;
+  }
+
+  .header-menu {
+    order: 1;
+  }
+}
+
+@media (max-width: 468px) {
+  .footer {
+    padding: 50px 0;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+  }
+
+  .footer-menu {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .footer-menu-list {
+    flex-direction: column;
   }
 }
