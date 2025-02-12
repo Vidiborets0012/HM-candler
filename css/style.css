@@ -166,9 +166,24 @@ body {
   }
 
   .header-menu-list {
-    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(-120%);
+    flex-direction: column;
+    gap: 20px 0;
+    width: 153px;
+    padding: 25px 35px 25px 45px;
+    color: #fff8f3;
+    background-color: #7b6152;
+    transition: transform 0.5s ease;
+    z-index: 5;
   }
 
+  .header-menu-list.menu-open {
+    top: 0;
+    transform: translateY(0%);
+  }
   .header-menu {
     order: 1;
   }
@@ -177,6 +192,7 @@ body {
 @media (max-width: 468px) {
   .footer {
     padding: 50px 0;
+    font-size: 14px;
   }
 
   .footer-inner {
