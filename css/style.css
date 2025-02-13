@@ -92,6 +92,7 @@ body {
 
 .main {
   background-color: #fff8f3;
+  overflow-x: clip;
 }
 
 .top {
@@ -165,6 +166,23 @@ body {
 @media (max-width: 1000px) {
   .container {
     padding: 0 20px;
+  }
+
+  .top {
+    padding: 30px 0 238px;
+  }
+
+  .top-content {
+    width: 333px;
+    padding-top: 93px;
+  }
+
+  .top-img {
+    left: 297px;
+  }
+
+  .top-img-l {
+    width: 655px;
   }
 }
 
