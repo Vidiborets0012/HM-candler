@@ -177,6 +177,10 @@ body {
     padding-top: 93px;
   }
 
+  .top-text {
+    margin-bottom: 30px;
+  }
+
   .top-img {
     left: 297px;
   }
@@ -217,6 +221,30 @@ body {
     left: -16px;
     top: -2px;
     background-size: cover;
+  }
+
+  .top {
+    padding: 30px 0 194px;
+  }
+
+  .top-content {
+    width: 230px;
+    padding-top: 100px;
+  }
+
+  .top-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .top-text {
+    margin-bottom: 20px;
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  .top-img {
+    left: 180px;
   }
 }
 
