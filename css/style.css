@@ -19,6 +19,16 @@ ul {
   padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 button {
   padding: 0;
   border: none;
@@ -111,6 +121,7 @@ body {
 .top-title {
   margin-bottom: 15px;
   font-family: 'Yeseva One', sans-serif;
+  font-weight: 400;
   font-size: 30px;
 }
 
@@ -185,7 +196,7 @@ body {
     left: 297px;
   }
 
-  .top-img-l {
+  .top-image {
     width: 655px;
   }
 }
@@ -278,6 +289,40 @@ body {
   }
   .header-menu {
     order: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .top {
+    padding: 30px 0 130px;
+  }
+
+  .top-content {
+    width: 167px;
+    padding-top: 80px;
+  }
+
+  .top-title {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+
+  .top-text {
+    margin-bottom: 15px;
+    font-size: 8px;
+  }
+
+  .top-buy {
+    padding: 13px 40px;
+    font-size: 10px;
+  }
+
+  .top-img {
+    left: 167px;
+  }
+
+  .top-image {
+    width: 309px;
   }
 }
 
