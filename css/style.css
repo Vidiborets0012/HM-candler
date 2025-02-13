@@ -19,6 +19,13 @@ ul {
   padding: 0;
 }
 
+button {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
 .container {
   max-width: 1182px;
   padding: 0 10px;
@@ -26,7 +33,7 @@ ul {
 }
 
 body {
-  font-family: 'Comfortaa', serif;
+  font-family: 'Comfortaa', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
@@ -50,11 +57,7 @@ body {
   justify-content: space-between;
   width: 30px;
   height: 25px;
-  padding: 0;
-  border: none;
   background-color: transparent;
-  border-radius: 0;
-  cursor: pointer;
 }
 
 .menu-btn span {
@@ -85,6 +88,49 @@ body {
   left: -23px;
   top: -3px;
   background-image: url('../images/icon-phone.svg');
+}
+
+.main {
+  background-color: #fff8f3;
+}
+
+.top {
+  padding: 30px 0 420px;
+}
+
+.top-inner {
+  position: relative;
+}
+
+.top-content {
+  width: 370px;
+  padding-top: 164px;
+}
+
+.top-title {
+  margin-bottom: 15px;
+  font-family: 'Yeseva One', sans-serif;
+  font-size: 30px;
+}
+
+.top-text {
+  margin-bottom: 48px;
+}
+
+.top-buy {
+  padding: 18px 54px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 600;
+  font-size: 14px;
+  color: #272727;
+  background-color: #ffbd59;
+}
+
+.top-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 242px;
 }
 
 /* *********************************** */
