@@ -518,4 +518,40 @@ body {
   .top-image {
     width: 162px;
   }
+
+  .about {
+    padding: 25px 0 11px;
+  }
+
+  .about-content {
+    min-width: 233px;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .about-text + .about-text {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  body {
+    font-size: 8px;
+  }
+
+  .about-list {
+    padding-bottom: 42px;
+    margin-left: 16px;
+    padding-left: 9px;
+    gap: 0;
+  }
+
+  .about-item-img-2 {
+    display: none;
+  }
+
+  .about-item-img-3 {
+    display: none;
+  }
 }
