@@ -145,6 +145,69 @@ body {
   left: 242px;
 }
 
+.about {
+  padding: 50px 0 50px;
+  color: #fafafa;
+  background-color: #a5978e;
+}
+
+.about-inner {
+  display: flex;
+  align-items: center;
+}
+
+.about-content {
+  min-width: 370px;
+}
+
+.about-title {
+  margin-bottom: 15px;
+  font-family: 'Yeseva One', sans-serif;
+  font-size: 40px;
+}
+
+.about-text + .about-text {
+  margin-top: 15px;
+}
+
+.about-list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-basis: 820px;
+  padding-left: 110px;
+  padding-bottom: 48px;
+}
+
+.about-list::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  width: 22px;
+  height: 30px;
+  background-image: url('../images/about-decor.png');
+}
+
+.about-list::after {
+  position: absolute;
+  content: '';
+  left: 22px;
+  bottom: 9px;
+  width: 1000%;
+  height: 1px;
+  background-color: #7b6152;
+}
+
+.about-item-img {
+  margin-bottom: 10px;
+}
+
+.about-item-text {
+  font-size: 11px;
+}
+
 /* *********************************** */
 /* ************** FOOTER ************* */
 
