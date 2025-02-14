@@ -433,6 +433,42 @@ body {
   .top-image {
     width: 309px;
   }
+
+  .about-content {
+    min-width: 170px;
+  }
+
+  .about-list {
+    align-items: flex-end;
+    padding-bottom: 44px;
+    margin-left: 0;
+    padding-left: 12px;
+    gap: 5px;
+  }
+
+  .about-item-img {
+    margin-bottom: 0;
+  }
+
+  .about-item-text {
+    display: none;
+  }
+
+  .about-item-img-1 {
+    width: 80px;
+  }
+
+  .about-item-img-2 {
+    width: 140px;
+  }
+
+  .about-item-img-3 {
+    width: 80px;
+  }
+
+  .about-inner {
+    align-items: flex-end;
+  }
 }
 
 @media (max-width: 468px) {
