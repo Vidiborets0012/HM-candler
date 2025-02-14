@@ -262,6 +262,14 @@ body {
   .top-image {
     width: 655px;
   }
+
+  .about-content {
+    min-width: 300px;
+  }
+
+  .about-list {
+    padding-left: 20px;
+  }
 }
 
 @media (max-width: 900px) {
