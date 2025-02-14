@@ -321,12 +321,50 @@ body {
 
   .top-text {
     margin-bottom: 20px;
-    font-size: 10px;
-    line-height: 1.5;
+    /* font-size: 10px;
+    line-height: 1.5; */
   }
 
   .top-img {
     left: 180px;
+  }
+
+  .about-content {
+    min-width: 200px;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+  .about-title {
+    margin-bottom: 20px;
+  }
+
+  .about-list {
+    padding-bottom: 30px;
+    margin-left: 27px;
+    gap: 10px;
+  }
+
+  .about-item-img {
+    margin-bottom: 6px;
+  }
+
+  .about-item-text {
+    font-size: 6px;
+  }
+
+  .about-item-img-1 {
+    width: 120px;
+  }
+
+  .about-item-img-2 {
+    width: 190px;
+  }
+
+  .about-item-img-3 {
+    width: 120px;
   }
 }
 
