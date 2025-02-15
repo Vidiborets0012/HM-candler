@@ -715,4 +715,42 @@ body {
   .about-item-img-3 {
     display: none;
   }
+
+  .section-descr {
+    width: 235px;
+    margin: 0 auto 25px;
+  }
+
+  .products-item {
+    width: 150px;
+  }
+
+  .products-content {
+    gap: 40px 7px;
+  }
+
+  .products-item-img {
+    width: 141px;
+    margin-bottom: 5px;
+  }
+
+  .products-item-price {
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+
+  .products-item-title {
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+
+  .products-item-text {
+    margin-bottom: 16px;
+    font-size: 8px;
+  }
+
+  .button {
+    font-size: 8px;
+    padding: 8px 20px;
+  }
 }
