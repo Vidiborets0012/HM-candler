@@ -47,6 +47,30 @@ button {
   padding-bottom: 150px;
 }
 
+.section-decor {
+  position: relative;
+}
+
+.section-decor::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  width: 22px;
+  height: 30px;
+  background-image: url('../images/section-decor.png');
+}
+
+.section-decor::after {
+  position: absolute;
+  content: '';
+  left: 22px;
+  bottom: 9px;
+  width: 1000%;
+  height: 1px;
+  background-color: #7b6152;
+}
+
 .button {
   padding: 18px 54px;
   font-family: 'Comfortaa', sans-serif;
@@ -193,26 +217,6 @@ body {
   flex-basis: 820px;
   padding-left: 110px;
   padding-bottom: 48px;
-}
-
-.about-list::before {
-  position: absolute;
-  content: '';
-  left: 0;
-  bottom: 0;
-  width: 22px;
-  height: 30px;
-  background-image: url('../images/section-decor.png');
-}
-
-.about-list::after {
-  position: absolute;
-  content: '';
-  left: 22px;
-  bottom: 9px;
-  width: 1000%;
-  height: 1px;
-  background-color: #7b6152;
 }
 
 .about-item-img {
