@@ -286,6 +286,46 @@ body {
 }
 
 /* *********************************** */
+/* ************** STEPS ************* */
+
+.steps-list {
+  gap: 70px 25px;
+  counter-reset: number;
+}
+
+.steps-item {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  position: relative;
+}
+
+.steps-item::before {
+  position: absolute;
+  counter-increment: number;
+  content: '0' counter(number);
+  left: 0;
+  bottom: 0;
+  font-family: 'Yeseva One', cursive;
+  font-size: 30px;
+  color: #bea495;
+}
+
+.steps-item.steps-item-even::before {
+  left: auto;
+  right: 0;
+}
+
+.steps-item:nth-child(n + 10)::before {
+  content: counter(number);
+}
+
+.steps-item-text {
+  flex-basis: 174px;
+  padding-bottom: 40px;
+}
+
+/* *********************************** */
 /* ************** FOOTER ************* */
 
 .footer {
