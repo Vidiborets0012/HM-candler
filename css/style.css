@@ -235,9 +235,10 @@ body {
   grid-template-columns: 370px auto;
 }
 
-.products-content-descr {
+.section-content-descr {
   display: grid;
   grid-template-columns: auto auto;
+  padding-bottom: 80px;
 }
 
 .products-content {
