@@ -314,6 +314,12 @@ body {
   gap: 15px;
 }
 
+@media (max-width: 1040px) {
+  .products-content {
+    gap: 50px 67px;
+  }
+}
+
 @media (max-width: 1000px) {
   .container {
     padding: 0 20px;
@@ -346,6 +352,19 @@ body {
 
   .about-list {
     padding-left: 20px;
+  }
+
+  .section-inner {
+    grid-template-columns: 290px auto;
+    gap: 0 10px;
+  }
+
+  .products-content {
+    gap: 67px;
+  }
+
+  .section-text {
+    font-size: 10px;
   }
 }
 
