@@ -530,8 +530,18 @@ body {
     top: 0;
     transform: translateY(0%);
   }
+
   .header-menu {
     order: 1;
+  }
+
+  .section-inner {
+    display: block;
+  }
+
+  .section-descr {
+    margin-bottom: 30px;
+    text-align: center;
   }
 }
 
@@ -602,6 +612,23 @@ body {
 
   .about-inner {
     align-items: flex-end;
+  }
+
+  .about {
+    margin-bottom: 50px;
+  }
+
+  .section {
+    padding-bottom: 50px;
+  }
+
+  .section-content-descr {
+    padding-bottom: 60px;
+  }
+
+  .section-descr {
+    width: 300px;
+    margin: 0 auto 30px;
   }
 }
 
