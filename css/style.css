@@ -337,7 +337,7 @@ body {
   color: #fff;
 }
 
-.courses-title {
+.courses-item-title {
   padding: 15px 15px 15px 10px;
   left: 9px;
   bottom: 157px;
@@ -360,7 +360,7 @@ body {
   bottom: 2px;
 }
 
-.courses-title,
+.courses-item-title,
 .courses-time,
 .courses-price {
   background-color: #bea495;
@@ -458,6 +458,16 @@ body {
   }
 }
 
+@media (max-width: 970px) {
+  .courses .products-content {
+    gap: 50px;
+  }
+
+  .courses .products-content {
+    gap: 40px;
+  }
+}
+
 @media (max-width: 900px) {
   .footer-inner {
     flex-wrap: wrap;
@@ -501,6 +511,10 @@ body {
 
   .steps-item::before {
     font-size: 20px;
+  }
+
+  .courses .products-content {
+    gap: 30px;
   }
 }
 
@@ -610,6 +624,20 @@ body {
   .button {
     font-size: 12px;
     padding: 10px 26px;
+  }
+
+  .courses-item-title {
+    left: 6px;
+    bottom: 108px;
+  }
+
+  .courses-time {
+    left: 6px;
+    bottom: 70px;
+  }
+
+  .courses-price {
+    right: 6px;
   }
 }
 
@@ -765,6 +793,10 @@ body {
   .footer-menu-list {
     flex-direction: column;
   }
+
+  .courses .products-content {
+    gap: 10px;
+  }
 }
 
 @media (max-width: 404px) {
@@ -778,6 +810,11 @@ body {
 
   .steps-item-img {
     width: 66px;
+  }
+
+  .courses-price {
+    right: auto;
+    left: 6px;
   }
 }
 
@@ -885,5 +922,39 @@ body {
 
   .steps-item-text {
     font-size: 6px;
+  }
+
+  .courses-decr {
+    width: 235px;
+    margin: 0 auto 30px;
+  }
+
+  .courses .section-content-descr {
+    display: block;
+  }
+
+  .courses .products-item {
+    width: 288px;
+  }
+
+  .courses .products-item + .products-item {
+    margin-top: 30px;
+  }
+
+  .courses-item-img .products-item-img {
+    width: 250px;
+  }
+
+  .courses-item-title {
+    left: 19px;
+  }
+
+  .courses-time {
+    left: 19px;
+  }
+
+  .courses-price {
+    right: 6px;
+    left: auto;
   }
 }
