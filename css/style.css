@@ -368,6 +368,46 @@ body {
 }
 
 /* *********************************** */
+/* ************** TEAM ************* */
+.team {
+  background-color: #a5978e;
+  padding: 60px 0 80px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.team-content {
+  padding-bottom: 0;
+  gap: 75px;
+}
+
+.team-item {
+  position: relative;
+}
+
+.team-item-box {
+  position: absolute;
+  bottom: 13px;
+  /* left: 158px; */
+  right: 35px;
+  width: 165px;
+  text-align: center;
+  padding: 14px 9px 15px;
+  background-color: #7b6152;
+  z-index: 4;
+}
+
+.team-item-name {
+  font-family: 'Yeseva One', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.team-item-descr {
+  font-size: 10px;
+}
+
+/* *********************************** */
 /* ************** FOOTER ************* */
 
 .footer {
