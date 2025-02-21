@@ -17,10 +17,11 @@ const swiperOne = new Swiper('.feedback-slider', {
 
 const swiperTwo = new Swiper('.certificates-slider', {
 
-  loop: true,
-
-  pagination: {
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 20,
+    pagination: {
     el: '.swiper-pagination',
-  }
+    }
 
 });

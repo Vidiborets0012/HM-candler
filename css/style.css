@@ -485,8 +485,22 @@ body {
 
 /* *********************************** */
 /* ************** certificates ************* */
+.certificates-descr {
+  margin-right: 20px;
+}
+
 .certificates-slider {
-  width: 768px;
+  width: 1165px;
+  overflow: hidden;
+}
+
+.certificates-content {
+  padding-bottom: 114px;
+}
+
+.certificates-content .swiper-pagination {
+  bottom: 60px;
+  text-align: left;
 }
 
 /* *********************************** */
