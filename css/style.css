@@ -407,6 +407,81 @@ body {
 .team-item-descr {
   font-size: 10px;
 }
+/* *********************************** */
+/* ************** FEEDBACK ************* */
+.feedback-descr {
+  margin-right: 20px;
+}
+
+.feedback-content {
+  padding-bottom: 110px;
+}
+
+.feedback-item {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 0 16px;
+}
+
+.feedback-item-video {
+  position: relative;
+}
+
+.feedback-item-videobtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+
+.feedback-item-content {
+  padding-bottom: 70px;
+}
+
+.feedback-item-social-link {
+  margin-bottom: 15px;
+}
+
+.feedback-item-name {
+  margin-bottom: 15px;
+  font-family: 'Yeseva One', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+
+.feedback-item-text {
+  margin-bottom: 15px;
+}
+
+.feedback-item-btn {
+  position: absolute;
+  bottom: 13px;
+  right: 0;
+}
+
+.feedback-slider {
+  width: 768px;
+  overflow: hidden;
+}
+
+.feedback-content .swiper-pagination {
+  bottom: 50px;
+}
+
+.swiper-pagination-bullet {
+  width: 53px;
+  height: 4px;
+  background-color: #bea495;
+  border-radius: 0;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #7b6152;
+}
 
 /* *********************************** */
 /* ************** FOOTER ************* */
