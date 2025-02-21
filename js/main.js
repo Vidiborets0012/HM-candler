@@ -22,6 +22,15 @@ const swiperTwo = new Swiper('.certificates-slider', {
     spaceBetween: 20,
     pagination: {
     el: '.swiper-pagination',
-    }
-
+    },
+    breakpoints: {
+        480: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        360: {
+          slidesPerView: 1
+          
+        }
+    },
 });
