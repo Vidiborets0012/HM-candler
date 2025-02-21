@@ -14,3 +14,13 @@ const swiperOne = new Swiper('.feedback-slider', {
   }
 
 });
+
+const swiperTwo = new Swiper('.certificates-slider', {
+
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+  }
+
+});
