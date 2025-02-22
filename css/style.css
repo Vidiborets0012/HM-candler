@@ -587,6 +587,53 @@ body {
 }
 
 /* *********************************** */
+/* ************** QUESTIONS ************* */
+
+.accordeon-item {
+  margin-bottom: 10px;
+  background-color: #fafafa;
+}
+
+.accordeon-title {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 16px 50px 16px 13px;
+  background-color: transparent;
+  font-family: 'Yeseva One', sans-serif;
+  font-size: 16px;
+  text-align-last: left;
+}
+
+.accordeon-title::after {
+  position: absolute;
+  content: '';
+  width: 16px;
+  height: 16px;
+  right: 26px;
+  top: 17px;
+  background-image: url('../images/arrow.svg');
+}
+
+.accordeon-title.accordeon-title-active::after {
+  transform: rotate(180deg);
+}
+
+.accordeon-text {
+  opacity: 0;
+  max-height: 0;
+  transition: opacity 0.3s, max-height 0.3s;
+}
+
+.accordeon-text-box {
+  padding: 20px 40px;
+}
+
+.accordeon-text.accordeon-text-visible {
+  opacity: 1;
+}
+
+/* *********************************** */
 /* ************** FOOTER ************* */
 
 .footer {
