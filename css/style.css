@@ -534,6 +534,58 @@ body {
 }
 
 /* *********************************** */
+/* ************** CONTACTS ************* */
+.contacts {
+  padding: 150px 0 50px;
+}
+
+.contacts-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form {
+  width: 664px;
+  padding: 75px 42px 67px;
+  background-color: #fff;
+}
+
+.form-title {
+  margin-bottom: 60px;
+  font-family: 'Yeseva One', sans-serif;
+  font-size: 40px;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 7px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.form-input::placeholder {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.form-btn {
+  margin-top: 36px;
+  padding: 17px 34px;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #272727;
+  background-color: #ffbd59;
+}
+
+/* *********************************** */
 /* ************** FOOTER ************* */
 
 .footer {
