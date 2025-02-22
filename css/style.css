@@ -504,10 +504,41 @@ body {
 }
 
 /* *********************************** */
+/* ************** PROMO ************* */
+.promo {
+  background-image: url('../images/promo-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 140px 0;
+}
+
+.promo-inner {
+  display: flex;
+  align-items: center;
+}
+
+.promo-text {
+  max-width: 710px;
+  padding-left: 56px;
+  margin-right: 110px;
+  font-family: 'Yeseva One', sans-serif;
+  font-size: 40px;
+  color: #fff;
+}
+
+.promo-link {
+  padding: 17px 46px;
+  font-weight: 600;
+  background-color: #ffbd59;
+}
+
+/* *********************************** */
 /* ************** FOOTER ************* */
 
 .footer {
   padding: 40px 0 34px;
+  color: #272727;
   background-color: #ffffff;
 }
 
